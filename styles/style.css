@@ -82,9 +82,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 100px auto;
+  margin: auto;
+  padding-top: 100px;
 }
-
 
 .two-columns {
   width: 80%;
@@ -108,7 +108,6 @@
   justify-content: space-between;
   display: flex;
   flex-direction: column;
-  list-style: none;
   padding: 0;
   margin: 0;
 }
@@ -341,7 +340,7 @@
   color: #fff;
 }
 
-.footer_link {
+.footer__social-icon {
   margin-right: 10px;
   width: 16px;
   height: 16px;
