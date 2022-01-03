@@ -191,6 +191,22 @@
   margin: auto;
 }
 
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  margin: auto;
+}
+
+.video__iframes {
+  margin-top: 50px;
+}
+
+.video__iframe:nth-child(2) {
+  margin-left: 20px;
+}
+
 .digits {
   display: flex;
   flex-direction: column;
