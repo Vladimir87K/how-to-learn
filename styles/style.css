@@ -305,14 +305,12 @@
 }
 
 .khan {
-  outline: 1px solid red;
   background-color: #f2f2f2;
   margin: auto;
   padding-top: 105px;
 }
 
 .khan__container {
-  outline: 1px solid blue;
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -404,6 +402,27 @@
   margin-right: 0;
   margin-top: 80px;
   z-index: 1;
+}
+
+.resources {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  padding: 100px 0 217px;
+}
+
+.resources__logo-zone {
+  width: 1100px;
+  display: flex;
+  padding: 0;
+  margin: 80px 0 0;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+  text-align: center;
 }
 
 .footer {
